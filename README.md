@@ -9,19 +9,38 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 
 ## Featured work
 
-| Project | What it is | Built with |
-| --- | --- | --- |
-| [**Ephemeral Chat**](https://github.com/cLLeB/ephemeral-chat) | Anonymous, end-to-end encrypted chat rooms with self-destructing messages, view-once images, voice notes and peer-to-peer voice calls. Messages are never stored, and the AES-GCM key never reaches the server. Knock-to-join rooms, proof-of-work spam protection, and builds as an installable PWA and an Android app. [Live](https://chat.kyere.me) | Node.js · Socket.IO · WebRTC · Java · Kotlin |
-| [**Gear**](https://github.com/cLLeB/gear) | A fast, AI-powered developer terminal for macOS, Linux and Windows: tabs, split panes, AI chat and inline completions. Installs through Homebrew, apt and rpm. | Rust · Tauri 2 · React 19 |
-| [**Biometric Verify**](https://github.com/cLLeB/verification-system) | Contactless face and palm verification with active liveness checks. [Live](https://verify.kyere.me) | Python · InsightFace · MediaPipe · ONNX |
-| [**Bible App**](https://github.com/cLLeB/bible-app) | Offline projection Bible for churches with local Whisper voice recognition, dual-screen projection and a phone remote. | Rust · TypeScript · Python |
-| [**Ephdrops**](https://github.com/cLLeB/ephdrops) | Drop and pick up files, images, audio and text, with optional steganography. [Live](https://beternow-ephdrops.hf.space) | JavaScript · Node.js |
-| [**UniMatch Ghana**](https://github.com/cLLeB/Unimatch) | Finds every university programme a WASSCE graduate qualifies for, and what would change it where they fall short. [Live](https://unimatchgh.app) | TypeScript |
-| [**Smart Socket**](https://github.com/cLLeB/embedded-system) | Arduino socket that cuts mains power once a device is fully charged. Running on real 230 V with 123 tests passing. | C++ · Arduino |
-| [**Stegno**](https://github.com/cLLeB/stegno) | Offline steganography toolkit: one Rust engine shared by a desktop app and a native Android app. | Rust · Tauri · Kotlin |
-| [**PlugChat**](https://github.com/cLLeB/plugchat) | In-app messaging you embed into a platform that already exists, keeping your own users, login, servers and database. | JavaScript · Web Components |
-| [**Sidepage**](https://github.com/cLLeB/sidepage) | Read books, documents and slides with your notes, drawings and mind maps open beside them. | TypeScript · JavaScript |
-| [**Language Interpreter**](https://github.com/cLLeB/custom-lang-interpreter) | A programming language with its own lexer, parser, AST and evaluator, plus arrays, functions and a REPL. | Rust |
+**[Ephemeral Chat](https://github.com/cLLeB/ephemeral-chat)**: anonymous chat rooms on Android and desktop where nothing is ever stored. Messages are encrypted on the device with AES-GCM and the key never reaches the server. Self-destructing messages, view-once images, voice notes, peer-to-peer voice calls, knock-to-join rooms the host approves, and proof-of-work spam protection.
+*Node.js · Socket.IO · WebRTC · React · Android*
+
+**[Gear](https://github.com/cLLeB/gear)**: a native developer workbench for macOS, Linux and Windows, built around the terminal. Split terminals, a code editor with language servers, Git, a debugger, Docker and Kubernetes, a database console, an HTTP client, notebooks and 57 built-in tool panes, with AI help across all of it. Installs through Homebrew, winget, apt, rpm and Nix.
+*Rust · Tauri 2 · React 19 · TypeScript*
+
+**[Biometric Verify](https://github.com/cLLeB/verification-system)**: proves who someone is with just a phone camera, by face or palm, with active liveness checks. It confirms a claimed identity or finds who a person is, works fully offline, and keeps only an irreversible template, never the photo. Ships as an API, an Android app and ready-made integrations for attendance, exams, clinics and welfare de-duplication. [Live](https://verify.kyere.me)
+*Python · InsightFace · MediaPipe · ONNX · Android*
+
+**[Bible App](https://github.com/cLLeB/bible-app)**: a Windows projection app for churches that catches verse references as the preacher speaks them, using Whisper on the device, ready to put on screen. Also projects songs, slides and media, with a stage display, a phone remote and projector control. Fully offline, with builds for CPU, Vulkan and CUDA.
+*Rust · Tauri · React · Whisper*
+
+**[Ephdrops](https://github.com/cLLeB/ephdrops)**: encrypted, self-destructing drops of text, images, audio or files up to 2 GB, only for the recipients you name. Content is encrypted on the device with AES-256-GCM, so the server only ever holds ciphertext and hashed usernames. Share by link, QR code, a four-word code or an `.eph` file, on the web, Windows, macOS, Linux and Android. [Live](https://beternow-ephdrops.hf.space)
+*React · Node.js · Tauri · Capacitor*
+
+**[Stegno](https://github.com/cLLeB/stegno)**: an offline steganography toolkit. Hide encrypted secrets in photos, audio, video, text or any file, with decoys, multiple recipients and secrets split across several covers. One Rust engine runs the browser (WebAssembly), desktop and native Android apps. [Live](https://stegno-omega.vercel.app)
+*Rust · WebAssembly · Tauri · Kotlin*
+
+**[UniMatch Ghana](https://github.com/cLLeB/Unimatch)**: shows WASSCE graduates every university programme they qualify for and why, and what would change it where they fall short. Cut-off point browser, what-if simulator, comparisons, an advisor answered from the data, and deadline reminders. [Live](https://unimatchgh.app)
+*TypeScript · React · PostgreSQL*
+
+**[Smart Socket](https://github.com/cLLeB/embedded-system)**: an Arduino socket that watches a charger's current, cuts mains power once the device is full so it never trickle-charges, and schedules around time-of-use tariffs. Running on real 230 V with 123 tests passing, and controlled over Bluetooth from Android and desktop apps. Built with a team of ten.
+*C++ · Arduino · Bluetooth LE · Android*
+
+**[PlugChat](https://github.com/cLLeB/plugchat)**: self-hosted chat that existing platforms embed with one tag and one backend endpoint, keeping their own users, login, servers and database. Every part can be restyled or switched off. Starters for seven languages, published on npm and as a container image.
+*JavaScript · Web Components · Node.js*
+
+**[Sidepage](https://github.com/cLLeB/sidepage)**: early stage. A reader for books, documents and slide decks with notes, drawings and mind maps beside the page, plus study tools such as highlights, read-along and teach-it-back.
+*TypeScript · JavaScript*
+
+**[Language Interpreter](https://github.com/cLLeB/custom-lang-interpreter)**: a small programming language in Rust with a lexer, a parser, a tree-walking interpreter and a bytecode VM checked against each other by a conformance suite, gradual type checking and a REPL.
+*Rust*
 
 **Looply**, a mobile financial and food delivery platform, took 1st runner-up at KNUST CodeFest '25. I was the principal frontend developer ([source](https://github.com/cLLeB/HubtelClone-Public)).
 
