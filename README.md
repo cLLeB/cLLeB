@@ -11,7 +11,7 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 
 | Project | What it is | Built with |
 | --- | --- | --- |
-| [**Ephemeral Chat**](https://github.com/cLLeB/ephemeral-chat) | Real-time chat where messages live only in memory and are never stored. [Live demo](https://chat.kyere.me) | Node.js · Socket.IO |
+| [**Ephemeral Chat**](https://github.com/cLLeB/ephemeral-chat) | Anonymous, end-to-end encrypted chat rooms with self-destructing messages, view-once images, voice notes and peer-to-peer voice calls. Messages are never stored, and the AES-GCM key never reaches the server. Knock-to-join rooms, proof-of-work spam protection, and builds as an installable PWA and an Android app. [Live](https://chat.kyere.me) | Node.js · Socket.IO · WebRTC · Java · Kotlin |
 | [**Gear**](https://github.com/cLLeB/gear) | A fast, AI-powered developer terminal for macOS, Linux and Windows: tabs, split panes, AI chat and inline completions. Installs through Homebrew, apt and rpm. | Rust · Tauri 2 · React 19 |
 | [**Biometric Verify**](https://github.com/cLLeB/verification-system) | Contactless face and palm verification with active liveness checks. [Live](https://verify.kyere.me) | Python · InsightFace · MediaPipe · ONNX |
 | [**Bible App**](https://github.com/cLLeB/bible-app) | Offline projection Bible for churches with local Whisper voice recognition, dual-screen projection and a phone remote. | Rust · TypeScript · Python |
