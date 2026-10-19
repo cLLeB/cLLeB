@@ -15,13 +15,20 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 | [**Sidepage**](https://github.com/cLLeB/sidepage) | Read books, documents and slides with your notes, drawings and mind maps open beside them. | TypeScript · JavaScript |
 | [**PlugChat**](https://github.com/cLLeB/plugchat) | In-app messaging you embed into a platform that already exists, keeping your own users, login, servers and database. | JavaScript · Web Components |
 | [**Bible App**](https://github.com/cLLeB/bible-app) | Offline projection Bible for churches with local Whisper voice recognition, dual-screen projection and a phone remote. | Rust · TypeScript · Python |
-| [**Biometric Verify**](https://github.com/cLLeB/verification-system) | Contactless face and palm verification with active liveness checks. | Python · InsightFace · MediaPipe · ONNX |
+| [**Biometric Verify**](https://github.com/cLLeB/verification-system) | Contactless face and palm verification with active liveness checks. [Live](https://verify.kyere.me) | Python · InsightFace · MediaPipe · ONNX |
 | [**Smart Socket**](https://github.com/cLLeB/embedded-system) | Arduino socket that cuts mains power once a device is fully charged. Running on real 230 V with 123 tests passing. | C++ · Arduino |
 | [**Stegno**](https://github.com/cLLeB/stegno) | Offline steganography toolkit: one Rust engine shared by a desktop app and a native Android app. | Rust · Tauri · Kotlin |
+| [**Ephdrops**](https://github.com/cLLeB/ephdrops) | Drop and pick up files, images, audio and text, with optional steganography. [Live](https://beternow-ephdrops.hf.space) | JavaScript · Node.js |
+| [**UniMatch Ghana**](https://github.com/cLLeB/Unimatch) | Finds every university programme a WASSCE graduate qualifies for, and what would change it where they fall short. [Live](https://unimatchgh.app) | TypeScript |
 | [**Ephemeral Chat**](https://github.com/cLLeB/ephemeral-chat) | Real-time chat where messages live only in memory and are never stored. [Live demo](https://chat.kyere.me) | Node.js · Socket.IO |
 | [**Language Interpreter**](https://github.com/cLLeB/custom-lang-interpreter) | A programming language with its own lexer, parser, AST and evaluator, plus arrays, functions and a REPL. | Rust |
 
 **Looply**, a mobile financial and food delivery platform, took 1st runner-up at KNUST CodeFest '25. I was the principal frontend developer ([source](https://github.com/cLLeB/HubtelClone-Public)).
+
+## Research
+
+**[AFL-LightGBM: Adaptive Focal-Loss LightGBM for Mobile Money Fraud Detection in Ghana](https://github.com/cLLeB/AFL-LightGBM-MoMo-Fraud)** · [DOI 10.5281/zenodo.20838286](https://doi.org/10.5281/zenodo.20838286)  
+An adaptive focal-loss objective inside LightGBM for highly imbalanced fraud data (under 0.5% fraud), with SHAP explainability aligned to Ghana's Data Protection Act. Supervised by Eric Opoku Osei (PhD), Department of Computer Science, KNUST.
 
 ## Certifications
 
