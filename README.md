@@ -36,11 +36,8 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 **[PlugChat](https://github.com/cLLeB/plugchat)**: self-hosted chat that existing platforms embed with one tag and one backend endpoint, keeping their own users, login, servers and database. Every part can be restyled or switched off. Starters for seven languages, published on npm and as a container image.
 *JavaScript · Web Components · Node.js*
 
-**[Sidepage](https://github.com/cLLeB/sidepage)**: early stage. A reader for books, documents and slide decks with notes, drawings and mind maps beside the page, plus study tools such as highlights, read-along and teach-it-back.
+**[Sidepage](https://github.com/cLLeB/sidepage)**: a reader for books, documents and slide decks with notes, drawings and mind maps beside the page, plus study tools such as highlights, read-along and teach-it-back.
 *TypeScript · JavaScript*
-
-**[Language Interpreter](https://github.com/cLLeB/custom-lang-interpreter)**: a small programming language in Rust with a lexer, a parser, a tree-walking interpreter and a bytecode VM checked against each other by a conformance suite, gradual type checking and a REPL.
-*Rust*
 
 **Looply**, a mobile financial and food delivery platform, took 1st runner-up at KNUST CodeFest '25. I was the principal frontend developer ([source](https://github.com/cLLeB/HubtelClone-Public)).
 
