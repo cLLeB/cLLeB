@@ -1,7 +1,6 @@
 # Caleb Kwabena Kyere Boateng
 
 **Software & Security Engineer · Embedded Systems**
-BSc Computer Science, KNUST (2024 – 2027) · Takoradi, Ghana
 
 I build software end to end: native desktop apps in Rust and TypeScript, real-time and privacy-first web systems, biometric verification, and firmware that runs on real hardware. Security runs through all of it. I design for on-device processing, zero persistence and least trust, and I'm certified in network security.
 
