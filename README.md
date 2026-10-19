@@ -1,130 +1,42 @@
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/caleb-kyere-boateng-6736092b4/)
-[![Mail Badge](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:kyereboatengcaleb@gmail.com)
-[![Portfolio Badge](https://img.shields.io/badge/-Portfolio-101010?style=flat&logo=About.me&logoColor=white)](https://portfolio.kyere.me)
-
 # Caleb Kwabena Kyere Boateng
 
-**Aspiring Network & Security Engineer**  
-Computer Science Undergraduate | KNUST, Ghana
+**Software & Security Engineer · Embedded Systems**
+BSc Computer Science, KNUST (2024 – 2027) · Takoradi, Ghana
 
-📍 Takoradi, Ghana  
-📧 kyereboatengcaleb@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/caleb-kyere-boateng-6736092b4) • [GitHub](https://github.com/cLLeB) • [Portfolio](https://portfolio.kyere.me)
+I build software end to end: native desktop apps in Rust and TypeScript, real-time and privacy-first web systems, biometric verification, and firmware that runs on real hardware. Security runs through all of it. I design for on-device processing, zero persistence and least trust, and I'm certified in network security.
 
----
+[Portfolio](https://portfolio.kyere.me) · [LinkedIn](https://www.linkedin.com/in/caleb-kyere-boateng-6736092b4) · [Email](mailto:kyereboatengcaleb@gmail.com)
 
-## About Me
+## Featured work
 
-I am a Computer Science undergraduate with a strong interest in **network engineering, cybersecurity, and secure systems design**.  
-My experience spans **network traffic analysis, defensive security practices, and real-time application development**, with a growing focus on building and securing networked systems.
+| Project | What it is | Built with |
+| --- | --- | --- |
+| [**Gear**](https://github.com/cLLeB/gear) | A fast, AI-powered developer terminal for macOS, Linux and Windows: tabs, split panes, AI chat and inline completions. Installs through Homebrew, apt and rpm. | Rust · Tauri 2 · React 19 |
+| [**Sidepage**](https://github.com/cLLeB/sidepage) | Read books, documents and slides with your notes, drawings and mind maps open beside them. | TypeScript · JavaScript |
+| [**PlugChat**](https://github.com/cLLeB/plugchat) | In-app messaging you embed into a platform that already exists, keeping your own users, login, servers and database. | JavaScript · Web Components |
+| [**Bible App**](https://github.com/cLLeB/bible-app) | Offline projection Bible for churches with local Whisper voice recognition, dual-screen projection and a phone remote. | Rust · TypeScript · Python |
+| [**Biometric Verify**](https://github.com/cLLeB/verification-system) | Contactless face and palm verification with active liveness checks. | Python · InsightFace · MediaPipe · ONNX |
+| [**Smart Socket**](https://github.com/cLLeB/embedded-system) | Arduino socket that cuts mains power once a device is fully charged. Running on real 230 V with 123 tests passing. | C++ · Arduino |
+| [**Stegno**](https://github.com/cLLeB/stegno) | Offline steganography toolkit: one Rust engine shared by a desktop app and a native Android app. | Rust · Tauri · Kotlin |
+| [**Ephemeral Chat**](https://github.com/cLLeB/ephemeral-chat) | Real-time chat where messages live only in memory and are never stored. [Live demo](https://chat.kyere.me) | Node.js · Socket.IO |
+| [**Language Interpreter**](https://github.com/cLLeB/custom-lang-interpreter) | A programming language with its own lexer, parser, AST and evaluator, plus arrays, functions and a REPL. | Rust |
 
-I enjoy working at the intersection of **network protocols, system security, and software engineering**, and I am actively preparing for a career in **Network & Security Engineering**.
-
----
-
-## Technical Skills
-
-### Networking & Security
-- Network traffic analysis using **Wireshark**
-- Port scanning, host discovery, and reconnaissance with **Nmap**
-- Defensive security concepts (prevention, detection, and mitigation)
-- Vulnerability identification and basic penetration testing support
-- Understanding of TCP/IP, HTTP/WebSocket communication models
-
-### Software Development
-- **JavaScript**, **Node.js**
-- **WebSockets / Socket.IO** for real-time systems
-- **React** and **React Native** for frontend and mobile development
-- RESTful APIs and client–server architecture
-
-### Research & Collaboration
-- Academic research and technical documentation
-- Team-based development and peer collaboration
-- Ethical research and security best practices
-
----
+**Looply**, a mobile financial and food delivery platform, took 1st runner-up at KNUST CodeFest '25. I was the principal frontend developer ([source](https://github.com/cLLeB/HubtelClone-Public)).
 
 ## Certifications
 
-- **Certified Network Security Practitioner (CNSP)**  
-  *The SecOps Group* — Nov 2025  
-  *Focus: Network security, defensive security, traffic analysis*
+- **Certified Network Security Practitioner (CNSP)**, The SecOps Group, Nov 2025
+- **Certified Cybersecurity Educator Professional (CCEP)**, Red Team Leaders, Nov 2025
+- **Network Technician Career Path**, Cisco Networking Academy, Jan 2025
+- **Research Methodologies in Strategy & Product Development**, Institute of Management, Technology and Finance, Jul 2025
 
-- **Certified Cybersecurity Educator Professional (CCEP)**  
-  *Red Team Leaders* — Nov 2025  
-  *Focus: Information security architecture, network security*
-  
-- **Network Technician Career Path**  
-  *Cisco Networking Academy* — Jan 2025  
-  *Focus: Network Technician, Ethernet, IPv4/IPv6, Wireless, DNS/DHCP, Troubleshooting*
- 
-- **Research Methodologies in Strategy & Product Development**  
-  *Institute of Management, Technology and Finance* — Jul 2025  
-  *Focus: Strategy, Product Development, Research* 
-  
----
+## Toolbox
 
-## Featured Projects
+- **Languages:** Rust, TypeScript, JavaScript, Python, C++, Kotlin, Java
+- **Frameworks:** Tauri, React, React Native, Node.js, Socket.IO, FastAPI, Spring Boot
+- **Security & networking:** Wireshark, Nmap, TCP/IP, WebSocket security, biometric liveness
+- **Hardware:** Arduino, mains power control, sensor-driven firmware
 
-### 🔐 Ephemeral Chat — Real-Time Messaging System
-A secure, real-time messaging platform designed around **privacy and zero persistence**.
+## Open to
 
-- Built with **Node.js**, **WebSockets**, and **Socket.IO**
-- Messages exist only in memory and are never written to persistent storage
-- Focus on low latency, secure communication, and ephemeral data handling
-
-**Live Demo:** https://chat.kyere.me  
-**Source Code:** https://github.com/cLLeB/ephemeral-chat
-
----
-
-### 🌐 Portfolio Website
-Personal portfolio website showcasing projects, skills, and professional background.
-
-- Built with **React**
-- Clean, responsive design
-- Central hub for professional presence
-
-**Live Site:** https://portfolio.kyere.me
-
----
-
-### 🍔 Looply — Food Delivery Mobile App (CodeFest ’25)
-Food delivery mobile application developed for **CodeFest 2025**.
-
-- **1st Runner-Up**, KNUST CodeFest ’25
-- Principal frontend developer
-- Built with **React Native**
-- Team-based product design and implementation
-
----
-
-## Education
-
-**BSc. Computer Science**  
-Kwame Nkrumah University of Science and Technology (KNUST), Kumasi  
-**Duration:** Jan 2024 – Nov 2027 (Expected)
-
----
-
-## Current Focus
-
-- Network engineering fundamentals
-- Security monitoring and traffic analysis
-- Secure real-time communication systems
-- Preparing for advanced roles in **Network & Security Engineering**
-
----
-
-
-## Let’s Connect
-
-I am open to:
-- Internships and entry-level roles in networking or cybersecurity
-- Research collaboration
-- Technical discussions and open-source contributions
-
-📧 **Email:** kyereboatengcaleb@gmail.com  
-🔗 **LinkedIn:** https://www.linkedin.com/in/caleb-kyere-boateng-6736092b4
-
----   
+Internships and entry-level roles in software engineering, security or embedded systems, plus research collaboration.
