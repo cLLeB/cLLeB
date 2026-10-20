@@ -8,7 +8,7 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 
 ## Featured work
 
-**[Ephemeral Chat](https://github.com/cLLeB/ephemeral-chat)**: private messaging on a RAM-only server, so nothing is written to disk and there is no history to leak. End-to-end encryption built on HPKE with post-quantum ML-KEM, message size padding against traffic analysis, and optional Oblivious HTTP so the server never sees who is talking. Voice calls, video messages and synced watch parties. An Android app with screenshot blocking and root detection, and desktop apps for Windows, macOS and Linux. Around 790 commits.
+**[Ephemeral Chat](https://github.com/1iammyself/ephemeral-chat)**: private messaging on a RAM-only server, so nothing is written to disk and there is no history to leak. End-to-end encryption built on HPKE with post-quantum ML-KEM, message size padding against traffic analysis, and optional Oblivious HTTP so the server never sees who is talking. Voice calls, video messages and synced watch parties. An Android app with screenshot blocking and root detection, and desktop apps for Windows, macOS and Linux. Around 790 commits.
 *React · Node.js · Rust/WebAssembly · HPKE · Capacitor · Electron · Tauri*
 
 **[Gear](https://github.com/cLLeB/gear)**: a native developer workbench for macOS, Linux and Windows, built around the terminal. Split terminals, a code editor with language servers, Git, a debugger, Docker and Kubernetes, a database console, an HTTP client, notebooks and 57 built-in tool panes, with AI help across all of it. Installs through Homebrew, winget, apt, rpm and Nix.
