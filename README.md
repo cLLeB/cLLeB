@@ -8,13 +8,13 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 
 ## Featured work
 
-**[Ephemeral Chat](https://github.com/cLLeB/ephemeral-chat)**: anonymous chat rooms on Android and desktop where nothing is ever stored. Messages are encrypted on the device with AES-GCM and the key never reaches the server. Self-destructing messages, view-once images, voice notes, peer-to-peer voice calls, knock-to-join rooms the host approves, and proof-of-work spam protection.
-*Node.js · Socket.IO · WebRTC · React · Android*
+**[Ephemeral Chat](https://github.com/cLLeB/ephemeral-chat)**: private messaging on a RAM-only server, so nothing is written to disk and there is no history to leak. End-to-end encryption built on HPKE with post-quantum ML-KEM, message size padding against traffic analysis, and optional Oblivious HTTP so the server never sees who is talking. Voice calls, video messages and synced watch parties. An Android app with screenshot blocking and root detection, and desktop apps for Windows, macOS and Linux. Around 790 commits.
+*React · Node.js · Rust/WebAssembly · HPKE · Capacitor · Electron · Tauri*
 
 **[Gear](https://github.com/cLLeB/gear)**: a native developer workbench for macOS, Linux and Windows, built around the terminal. Split terminals, a code editor with language servers, Git, a debugger, Docker and Kubernetes, a database console, an HTTP client, notebooks and 57 built-in tool panes, with AI help across all of it. Installs through Homebrew, winget, apt, rpm and Nix.
 *Rust · Tauri 2 · React 19 · TypeScript*
 
-**[Biometric Verify](https://github.com/cLLeB/verification-system)**: proves who someone is with just a phone camera, by face or palm, with active liveness checks. It confirms a claimed identity or finds who a person is, works fully offline, and keeps only an irreversible template, never the photo. Ships as an API, an Android app and ready-made integrations for attendance, exams, clinics and welfare de-duplication. [Live](https://verify.kyere.me)
+**[Contactless Verification System](https://github.com/cLLeB/verification-system)**: proves who someone is with just a phone camera, by face or palm, with active liveness checks. It confirms a claimed identity or finds who a person is, works fully offline, and keeps only an irreversible template, never the photo. Ships as an API, an Android app and ready-made integrations for attendance, exams, clinics and welfare de-duplication. [Live](https://verify.kyere.me)
 *Python · InsightFace · MediaPipe · ONNX · Android*
 
 **[Bible App](https://github.com/cLLeB/bible-app)**: a Windows projection app for churches that catches verse references as the preacher speaks them, using Whisper on the device, ready to put on screen. Also projects songs, slides and media, with a stage display, a phone remote and projector control. Fully offline, with builds for CPU, Vulkan and CUDA.
