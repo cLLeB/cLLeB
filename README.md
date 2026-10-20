@@ -32,9 +32,6 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 **[Smart Socket](https://github.com/cLLeB/embedded-system)**: an Arduino socket that watches a charger's current, cuts mains power once the device is full so it never trickle-charges, and schedules around time-of-use tariffs. Running on real 230 V with 123 tests passing, and controlled over Bluetooth from Android and desktop apps. Built with a team of ten.
 *C++ · Arduino · Bluetooth LE · Android*
 
-**[PlugChat](https://github.com/cLLeB/plugchat)**: self-hosted chat that existing platforms embed with one tag and one backend endpoint, keeping their own users, login, servers and database. Every part can be restyled or switched off. Starters for seven languages, published on npm and as a container image.
-*JavaScript · Web Components · Node.js*
-
 **[Sidepage](https://github.com/cLLeB/sidepage)**: a reader for books, documents and slide decks with notes, drawings and mind maps beside the page, plus study tools such as highlights, read-along and teach-it-back.
 *TypeScript · JavaScript*
 
