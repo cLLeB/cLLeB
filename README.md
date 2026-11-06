@@ -1,12 +1,23 @@
 # Caleb Kwabena Kyere Boateng
 
-**Software & Security Engineer · Embedded Systems**
+**Embedded Systems Engineering Student · Electronics & Microelectronics**
 
-I build software end to end: native desktop apps in Rust and TypeScript, real-time and privacy-first web systems, biometric verification, and firmware that runs on real hardware. Security runs through all of it. I design for on-device processing, zero persistence and least trust, and I'm certified in network security.
+I'm a Master's student in Embedded Systems and Nanotechnology at JUNIA ISEN in Lille, coming from a Computer Science background at KNUST in Ghana. I build electronic systems end to end: circuit simulation, PCB design in KiCad, assembly and soldering, firmware, then testing and debugging until the board behaves the way the simulation said it would.
 
-[Portfolio](https://www.kyere.tech) · [LinkedIn](https://www.linkedin.com/in/caleb-kyere-boateng) · [Email](mailto:kyereboatengcaleb@gmail.com)
+[Portfolio](https://www.kyere.tech) · [LinkedIn](https://www.linkedin.com/in/caleb-kyere-boateng) · [Email](mailto:caleb-kwabena.kyere@student.junia.com)
 
-## Featured work
+## Engineering projects
+
+**[ESP32-C3 Smart USB-C Charge Controller](https://github.com/cLLeB/usb-c-charge-controller)**: a smart USB-C charge controller built around the ESP32-C3, with its own PCB and embedded firmware. C++ firmware gives wireless control over Wi-Fi and Bluetooth and takes firmware updates over the air. I designed the board in KiCad, assembled and soldered it, then tested and debugged the complete system, with Android and Windows companion apps.
+*ESP32-C3 · C++ · KiCad · Wi-Fi · Bluetooth · OTA*
+
+**[Optical Lock-In Amplifier for Photodiode Sensing](https://github.com/cLLeB/lock-in-amplifier)**: detects a modulated LED with a BPW34 photodiode despite ambient light and low frequency interference. Transimpedance amplifier, filtering and gain stages, synchronous demodulation and a low pass output, with a 1,024 Hz reference from a 32.768 kHz crystal. Simulated in LTspice and ngspice at about 0.522 mV/nA, then built on a PCB with two layers and tested: 0.00 mV with the LED covered, 362 mV with it close.
+*Analog electronics · KiCad · LTspice · ngspice*
+
+**Low Power CMOS Amplifier Design**: a transistor level analog CMOS amplifier in Cadence Virtuoso on a 45 nm process, covering the schematic, transistor sizing, biasing and simulation. It reaches 85 dB of voltage gain and 66 dB of CMRR in simulation while drawing under 70 µW.
+*Cadence Virtuoso · 45 nm CMOS · Analog design*
+
+## Software
 
 **[Ephemeral Chat](https://github.com/1iammyself/ephemeral-chat)**: private messaging on a RAM-only server, so nothing is written to disk and there is no history to leak. End-to-end encryption built on HPKE with post-quantum ML-KEM, message size padding against traffic analysis, and optional Oblivious HTTP so the server never sees who is talking. Voice calls, video messages and synced watch parties. An Android app with screenshot blocking and root detection, and desktop apps for Windows, macOS and Linux. Around 790 commits.
 *React · Node.js · Rust/WebAssembly · HPKE · Capacitor · Electron · Tauri*
@@ -37,6 +48,16 @@ I build software end to end: native desktop apps in Rust and TypeScript, real-ti
 
 **Looply**, a mobile financial and food delivery platform, took 1st runner-up at KNUST CodeFest '25. I was the principal frontend developer ([source](https://github.com/cLLeB/HubtelClone-Public)).
 
+## Education
+
+- **Master's in Embedded Systems and Nanotechnology**, JUNIA ISEN, Lille, France · September 2026 to present
+- **BSc Computer Science**, Kwame Nkrumah University of Science and Technology (KNUST), Ghana · 2024 to 2027
+
+## Experience
+
+- **Security Intern**, Information Security and Technology Assurance Division, KNUST · September to November 2025. Analysed student portal traffic in Wireshark, ran Nmap host discovery and port scans, and supported vulnerability assessment, penetration testing and security policy documentation.
+- **Africa Hall Representative**, KNUST Peer Counsellors (volunteer) · September 2025 to September 2026. Supported students' emotional and psychological well-being with the KNUST Counselling Centre.
+
 ## Research
 
 **[AFL-LightGBM: Adaptive Focal-Loss LightGBM for Mobile Money Fraud Detection in Ghana](https://github.com/cLLeB/AFL-LightGBM-MoMo-Fraud)** · [DOI 10.5281/zenodo.20838286](https://doi.org/10.5281/zenodo.20838286)  
@@ -46,16 +67,18 @@ An adaptive focal-loss objective inside LightGBM for highly imbalanced fraud dat
 
 - **Certified Network Security Practitioner (CNSP)**, The SecOps Group, Nov 2025
 - **Certified Cybersecurity Educator Professional (CCEP)**, Red Team Leaders, Nov 2025
-- **Network Technician Career Path**, Cisco Networking Academy, Jan 2025
+- **Network Technician Career Path**, Cisco Networking Academy, Jan 2026
 - **Research Methodologies in Strategy & Product Development**, Institute of Management, Technology and Finance, Jul 2025
 
 ## Toolbox
 
-- **Languages:** Rust, TypeScript, JavaScript, Python, C++, Kotlin, Java
+- **Embedded systems:** ESP32-C3, Arduino, C++ firmware, Wi-Fi, Bluetooth, OTA updates
+- **Electronics & hardware:** analog circuit design, CMOS design at transistor level, sensor interfaces, signal conditioning, PCB design, soldering, prototyping, hardware debugging and testing
+- **EDA & simulation:** KiCad, Cadence Virtuoso, LTspice, ngspice
+- **Languages:** C++, Rust, TypeScript, JavaScript, Python, Kotlin, Java
 - **Frameworks:** Tauri, React, React Native, Node.js, Socket.IO, FastAPI, Spring Boot
 - **Security & networking:** Wireshark, Nmap, TCP/IP, WebSocket security, biometric liveness
-- **Hardware:** Arduino, mains power control, sensor-driven firmware
 
 ## Open to
 
-Internships and entry-level roles in software engineering, security or embedded systems, plus research collaboration.
+Internships in embedded systems, electronic design and microelectronics, plus research collaboration.
