@@ -4,7 +4,7 @@
 
 I build software end to end: native desktop apps in Rust and TypeScript, real-time and privacy-first web systems, biometric verification, and firmware that runs on real hardware. Security runs through all of it. I design for on-device processing, zero persistence and least trust, and I'm certified in network security.
 
-[Portfolio](https://portfolio.kyere.me) · [LinkedIn](https://www.linkedin.com/in/caleb-kyere-boateng-6736092b4) · [Email](mailto:kyereboatengcaleb@gmail.com)
+[Portfolio](https://www.kyere.tech) · [LinkedIn](https://www.linkedin.com/in/caleb-kyere-boateng) · [Email](mailto:kyereboatengcaleb@gmail.com)
 
 ## Featured work
 
